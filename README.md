@@ -27,7 +27,8 @@ Now just do whatever it says for windows or linux sorry there is nothing for mac
 Run: 
 
 ```bash
-.\install\windows.bat
+# .\install\windows.bat
+go run main.go
 ```
 
 > This only works on windows for now

@@ -16,4 +16,5 @@ func main() {
 func handlers() {
 	handler.PrintSpecs()
 	handler.CopySpecs()
+	handler.Share(repo)
 }

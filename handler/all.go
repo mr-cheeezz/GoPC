@@ -52,12 +52,10 @@ func CopySpecs() {
 		} else {
 			color.Green("Copied specs to clipboard.")
 			time.Sleep(1 * time.Second)
-			share()
 		}
 	default:
 		color.Yellow("Not copying the specs to the clipboard.")
 		time.Sleep(1 * time.Second)
-		share()
 	}
 }
 
@@ -83,8 +81,8 @@ func header(title string) {
 	color.Blue(header)
 }
 
-func share() {
-	color.Magenta("Send this to your friends | https://github.com/mr-cheeezz/GoPC")
+func Share(repo string) {
+	color.Magenta("Send this to your friends | %s", repo)
 }
 
 func space() {
