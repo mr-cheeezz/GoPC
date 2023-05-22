@@ -30,8 +30,8 @@ Run:
 .\install\windows.bat
 ```
 
-
-<br>
+> This only works on windows for now
+<!-- <br>
 
 ## Linux
 <hr>
@@ -40,4 +40,4 @@ Run:
 
 ```bash
 sudo -H ./install/linux.sh
-```
+``` -->
