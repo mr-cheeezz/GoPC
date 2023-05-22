@@ -9,7 +9,7 @@ func Gpu() string {
 	cmd := exec.Command("wmic", "path", "win32_VideoController", "get", "name")
 	output, err := cmd.Output()
 	if err != nil {
-		return "" // or you can return a default value or an error message
+		return ""
 	}
 	lines := strings.Split(string(output), "\n")
 	if len(lines) > 1 {
@@ -19,5 +19,5 @@ func Gpu() string {
 			}
 		}
 	}
-	return "" // return empty string if no GPU name is found
+	return ""
 }

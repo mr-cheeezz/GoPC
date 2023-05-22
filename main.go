@@ -1,16 +1,19 @@
 package main
 
 import (
-	"time"
+	"fmt"
 
 	"github.com/mr-cheeezz/GoPC/handler"
 )
 
+const repo = "https://github.com/mr-cheeezz/GoPC"
+
 func main() {
+	fmt.Println("")
 	handlers()
-	time.Sleep(3 * time.Second)
 }
 
 func handlers() {
 	handler.PrintSpecs()
+	handler.CopySpecs()
 }

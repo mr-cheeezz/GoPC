@@ -13,7 +13,7 @@ git clone https://github.com/mr-cheeezz/GoPC.git
 CD into the directory
 
 ```bash
-cd GoPc
+cd GoPC
 ```
 <br>
 
