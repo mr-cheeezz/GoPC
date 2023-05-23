@@ -27,7 +27,8 @@ var Physical = map[string][]SpecGetterFunc{
 }
 
 var SoftW = map[string]SpecGetterFunc{
-	"OS": system.OSName,
+	"OS":     system.OSName,
+	"Kernel": system.KernelVer,
 }
 
 func Monitors() string {
